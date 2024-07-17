@@ -1,13 +1,18 @@
+# batch_size: 128
+# epochs: 80
 batch_size: 128
-epochs: 80
-lr: 0.001
+epochs: 10
+lr: 0.002
 
-device: cuda:0
+# device: cuda:0
+device: cpu
 num_workers: 4
 seed: 1234
 use_wandb: False
 
-data_dir: data
+data_dir: "C:/Users/wakan/programs/matuo/dl_lecture_competition_pub/data-omni"
 
 # Evaluation
 model_path: 
+
+image_dir: "C:/Users/wakan/programs/matuo/dl_lecture_competition_pub/images"
